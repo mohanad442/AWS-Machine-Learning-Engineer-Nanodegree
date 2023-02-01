@@ -65,6 +65,7 @@ with open("./test.jpg", "rb") as f:
 type(payload)
 
 response=predictor.predict(payload, initial_args={"ContentType": "image/jpeg"})
+
 response
 
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
